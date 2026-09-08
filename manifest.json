@@ -1,0 +1,16 @@
+{
+  "dataset": "SafeLegalAI Legal Tech Tools — governance facts",
+  "canonical": "https://safelegalai.com/tools",
+  "source": "https://safelegalai.com/tools/tools.json",
+  "catalogue": "https://safelegalai.com/datasets",
+  "publisher": "Cognesio LLP",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "lastChecked": "2026-09-04",
+  "synced": "2026-09-08",
+  "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
+  "tables": {
+    "tools": 129
+  },
+  "contentSha256": "486414bd7909c82ce2587141dae21b6213ffc0c7e2ffcf8dfd39db87c89051ae"
+}
