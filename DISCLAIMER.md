@@ -16,4 +16,4 @@
 
 **How this was collected.** An identified crawler (`SafeLegalAI-Bot`) reading public pages only, honouring robots.txt and rate limits, with no accounts, logins or paywall circumvention; each fact carries its source URL, fetch date and, where possible, an archived copy. Site operators may ask not to be crawled at legal@safelegalai.com.
 
-**Governing law.** England and Wales, exclusive jurisdiction of its courts, subject to mandatory consumer rights. Full terms: https://safelegalai.com/disclaimer
+**Consumer rights.** Nothing here excludes mandatory rights that cannot be excluded for consumers in their country of residence. Full terms: https://safelegalai.com/disclaimer
