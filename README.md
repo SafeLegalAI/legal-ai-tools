@@ -21,6 +21,10 @@ tags:
   - data-protection
   - security
   - generative-ai
+  - law
+  - courts
+  - ai-regulation
+  - ai-safety
   - safelegalai
 configs:
   - config_name: tools
@@ -65,7 +69,7 @@ Dates are `YYYY-MM-DD`. Optional fields are absent (JSONL) or empty (CSV) when u
 
 We record findings made by courts and regulators; we do not make them. Every record links a primary source (judgment, order, regulator notice, official document or vendor page) and carries the date it was last re-opened against that source. Unverified records are flagged `unverified`, never silently included. Inclusion criteria, the correction process and the ownership/funding disclosure are published at [safelegalai.com/editorial-standards](https://safelegalai.com/editorial-standards); every content run is logged at [safelegalai.com/changelog](https://safelegalai.com/changelog).
 
-**Disclosure.** One record (`ownership: own-product`) is LegalAI Space, an Omnizio LP product built by the same team at Cognesio LLP. It is listed with a permanent ownership label and only the facts it publishes; it is never scored, ranked, reviewed, compared or counted in any aggregate statistic, and is excluded from the counts above. Full policy: https://safelegalai.com/about.
+**Disclosure.** One record (`ownership: own-product`) is LegalAI Space, a Cognesio LLP product. It is listed with a permanent ownership label and only the facts it publishes; it is never scored, ranked, reviewed, compared or counted in any aggregate statistic, and is excluded from the counts above. Full policy: https://safelegalai.com/about.
 
 ## Use
 
@@ -74,9 +78,25 @@ from datasets import load_dataset
 ds = load_dataset("safelegalaidata/legal-ai-tools")
 ```
 
+## Uses
+
+**Suited to:** counting and comparing what the record shows (by court, jurisdiction, date, actor, outcome, status); building watch-lists and alerts from the `url` and last-checked fields; grounding retrieval or summarisation on cited primary documents; teaching and library guides that need a dated, sourced list.
+
+**Not suited to:** ranking products, people or courts; inferring prevalence beyond what a court or regulator has itself stated; any use that treats a coding column as a finding of fact or law. Where a row names a person or organisation it does so as they appear in a public document; anyone named may request a correction or right of reply at https://safelegalai.com/report.
+
 ## Cite
 
 > SafeLegalAI (published by Cognesio LLP), "Legal Tech Tools — governance facts", safelegalai.com, accessed 2026-09-08. https://safelegalai.com/tools — data: CC BY 4.0.
+
+```bibtex
+@dataset{safelegalai_legal_ai_tools_2026_09_08,
+  title        = {Legal Tech Tools — governance facts},
+  author       = {{SafeLegalAI (Cognesio LLP)}},
+  year         = {2026},
+  url          = {https://safelegalai.com/tools},
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-tools. Data CC BY 4.0. Last checked 2026-09-04.}
+}
+```
 
 Cite the primary source as the authority and this dataset as the structured record that surfaced it. Corrections and right of reply: [safelegalai.com/report](https://safelegalai.com/report).
 
@@ -112,6 +132,6 @@ Cite the primary source as the authority and this dataset as the structured reco
   "tables": {
     "tools": 129
   },
-  "contentSha256": "486414bd7909c82ce2587141dae21b6213ffc0c7e2ffcf8dfd39db87c89051ae"
+  "contentSha256": "adb7fa8cff3687214033073b59b59d83beb11b620fd5c0da10dc8b0927249fa3"
 }
 ```

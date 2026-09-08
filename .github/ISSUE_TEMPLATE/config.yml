@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Correction or right of reply (web form)
+    url: https://safelegalai.com/report
+    about: The same route as the row-error template, for people who prefer not to use GitHub.
+  - name: The canonical dataset page
+    url: https://safelegalai.com/datasets
+    about: Every table with its question, count, JSON download and last-checked date.

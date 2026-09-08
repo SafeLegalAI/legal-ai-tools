@@ -1,0 +1,38 @@
+name: Report an error in a row
+description: A record is wrong, out of date, or names you and you want a correction or right of reply.
+title: "[row] <table>/<id>: <what is wrong>"
+labels: ["row-error"]
+body:
+  - type: input
+    id: row
+    attributes:
+      label: Row
+      description: The table and the row id (or the record page URL on safelegalai.com).
+      placeholder: "decisions / paed-2026-warner-v-gilbarco · https://safelegalai.com/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of issue
+      options:
+        - Factual error (the source says something different)
+        - Out of date (a later disposition, version or status exists)
+        - Wrong source or broken link
+        - I am named in this row and want a correction or right of reply
+        - Licence / attribution question
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What the record should say, and the primary source that shows it
+      description: Link the court document, official page or vendor page. We change rows on primary sources only.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        We acknowledge within 7 days and add dated notes where appropriate. You can also write to hello@safelegalai.com or use https://safelegalai.com/report.
+        Data is CC BY 4.0 and provided as is, without warranty; see DISCLAIMER.md.
