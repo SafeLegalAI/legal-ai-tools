@@ -38,7 +38,7 @@ configs:
 
 **What does each legal tech tool actually document about training, retention, certification, residency and accuracy?**
 
-130 tools · 76 publish a no-training commitment · 15 categories · last checked 2026-09-22 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
+130 tools · 77 publish a no-training commitment · 15 categories · last checked 2026-10-05 · synced from [safelegalai.com](https://safelegalai.com) on 2026-10-05.
 
 Governance facts per legal tech product — disclosed model providers, SOC 2 / ISO 27001 / ISO 42001, data residency, no-training and zero-retention commitments, private deployment, DPA, trust and sub-processor pages, published accuracy evidence (vendor or third-party), and incidents on the record — each fact linked to the vendor page that states it. `unknown` means unknown: fields are never guessed. This is a facts registry, never a ranking.
 
@@ -94,7 +94,7 @@ ds = load_dataset("safelegalaidata/legal-ai-tools")
   author       = {{SafeLegalAI (SafeLegalAI)}},
   year         = {2026},
   url          = {https://safelegalai.com/tools},
-  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-tools. Data CC BY 4.0. Last checked 2026-09-22.}
+  note         = {Mirror: https://huggingface.co/datasets/safelegalaidata/legal-ai-tools. Data CC BY 4.0. Last checked 2026-10-05.}
 }
 ```
 
@@ -126,12 +126,12 @@ Cite the primary source as the authority and this dataset as the structured reco
   "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-09-22",
+  "lastChecked": "2026-10-05",
   "synced": "2026-10-05",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
     "tools": 131
   },
-  "contentSha256": "ee13503658a1e5a18ecbb8a66c723f2b386c5289c2f24cf78ecd29a2aff9bcdf"
+  "contentSha256": "e63b2f7cd721e19c2bc193b3a2984d8b667764865ed441c84617049590840f46"
 }
 ```

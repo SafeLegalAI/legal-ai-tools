@@ -6,11 +6,11 @@
   "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-09-22",
+  "lastChecked": "2026-10-05",
   "synced": "2026-10-05",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
     "tools": 131
   },
-  "contentSha256": "ee13503658a1e5a18ecbb8a66c723f2b386c5289c2f24cf78ecd29a2aff9bcdf"
+  "contentSha256": "e63b2f7cd721e19c2bc193b3a2984d8b667764865ed441c84617049590840f46"
 }
