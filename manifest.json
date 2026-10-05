@@ -3,14 +3,14 @@
   "canonical": "https://safelegalai.com/tools",
   "source": "https://safelegalai.com/tools/tools.json",
   "catalogue": "https://safelegalai.com/datasets",
-  "publisher": "Cognesio LLP",
+  "publisher": "SafeLegalAI",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "lastChecked": "2026-09-04",
-  "synced": "2026-09-08",
+  "lastChecked": "2026-09-22",
+  "synced": "2026-10-05",
   "notice": "Provided as is, without warranty; not legal advice. SafeLegalAI records findings made by courts, regulators and vendors' own pages; the linked official documents are the record. Names and marks belong to their owners. Terms: https://safelegalai.com/disclaimer",
   "tables": {
-    "tools": 129
+    "tools": 131
   },
-  "contentSha256": "adb7fa8cff3687214033073b59b59d83beb11b620fd5c0da10dc8b0927249fa3"
+  "contentSha256": "ee13503658a1e5a18ecbb8a66c723f2b386c5289c2f24cf78ecd29a2aff9bcdf"
 }
